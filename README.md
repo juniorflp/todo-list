@@ -8,7 +8,7 @@
 ![Captura de tela 2022-06-19 191023](https://user-images.githubusercontent.com/100806337/174502211-70e9c5f6-3bcb-45f7-bcf7-8068aa6a14a3.png)
 
 
-Para testar a aplicação clique aqui.
+Para testar a aplicação clique aqui. https://todo-list-kappa-five.vercel.app/
 
 
 ### Como rodar o projeto
