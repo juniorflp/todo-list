@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { ContentList } from "./components/ContentList";
+import { NumeroTask } from "./components/NumeroTask";
+import { SearchBar } from "./components/SearchBar";
+import { Container } from "./styles/Container";
+import { Content } from "./styles/Content";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Container>
+        <Content>
+          <header>Lista de tarefas</header>
+          <NumeroTask />
+          <SearchBar></SearchBar>
+          <ContentList></ContentList>
+        </Content>
+      </Container>
+    </>
   );
 }
 
